@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Progress Bougha — Cloud & DevOps Engineer</title>
+  <meta name="description" content="Progress Bougha — AWS Certified Cloud Practitioner. Cloud & DevOps portfolio showcasing Cloud Resume Challenge and hands-on AWS labs."/>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#98a0b3; --accent:#00c2a8; --glass:rgba(255,255,255,0.03);
+      --mono:'SFMono-Regular',Menlo,Monospace;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:
+      linear-gradient(180deg, #071021 0%, #061222 40%), radial-gradient(600px 300px at 10% 10%, rgba(0,194,168,0.06), transparent 10%); color:#e6eef8;}
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:980px;margin:36px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:12px; box-shadow:0 6px 30px rgba(2,6,23,0.6); display:grid;grid-template-columns:1fr 360px;gap:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .avatar{width:84px;height:84px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#4bd6ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042226;font-size:28px}
+    h1{margin:0;font-size:24px}
+    .tag{font-size:13px;color:var(--muted);margin-top:6px}
+    .contact{margin-top:12px;font-size:14px}
+    .pill{display:inline-block;background:var(--glass);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--muted);margin-right:8px}
+    /* left column content */
+    main{padding-right:6px}
+    section{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border-radius:10px;padding:16px;margin-bottom:18px}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+    .section-title h2{margin:0;font-size:16px}
+    .summary{color:var(--muted);line-height:1.5}
+    .skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .skill-item{background:rgba(255,255,255,0.02);padding:10px;border-radius:8px;font-size:14px}
+    .project{border-radius:8px;padding:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);margin-bottom:10px}
+    .project h3{margin:0;font-size:15px}
+    .meta{font-size:13px;color:var(--muted);margin-top:6px}
+    .techs{margin-top:8px;font-size:13px;color:var(--muted)}
+    .exp-item{margin-bottom:12px}
+    .exp-item h3{margin:0;font-size:15px}
+    .exp-role{font-size:13px;color:var(--muted);margin-top:6px}
+    .edu-item{font-size:14px;margin-bottom:8px}
+    .certs{display:flex;flex-wrap:wrap;gap:8px}
+    .cert{background:rgba(255,255,255,0.02);padding:8px;border-radius:8px;font-size:13px;color:var(--muted)}
+    /* right column */
+    aside{padding-left:6px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.012), transparent); border-radius:10px;padding:14px;margin-bottom:16px}
+    .link-list{list-style:none;padding:0;margin:0}
+    .link-list li{margin-bottom:8px;font-size:14px;color:var(--muted)}
+    .small{font-size:13px;color:var(--muted)}
+    footer{grid-column:1 / -1;text-align:center;color:var(--muted);font-size:13px;margin-top:14px}
+    /* responsive */
+    @media (max-width:980px){
+      .container{grid-template-columns:1fr; padding:18px}
+      aside{order:2}
+    }
+    /* tiny touches */
+    .badge{display:inline-block;padding:6px 9px;border-radius:8px;background:rgba(255,255,255,0.02);font-weight:600;font-size:13px;margin-right:8px}
+    .cta{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#4bd6ff);color:#002623;font-weight:700}
+    code{font-family:var(--mono);font-size:13px;background:rgba(255,255,255,0.02);padding:6px;border-radius:6px;color:#bfeee7}
+      #viewCount {
+    font-weight: 600;
+    color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <div>
+      <header>
+        <div class="avatar" aria-hidden="true">PB</div>
+        <div>
+          <h1>Progress Bougha</h1>
+          <div class="tag">Cloud & DevOps Engineer — AWS Certified Cloud Practitioner</div>
+          <div class="contact small" aria-label="contact">
+            Middlesbrough, UK · <a href="mailto:progressbougha83@gmail.com">progressbougha83@gmail.com</a>
+          </div>
+          <div style="margin-top:8px">
+            <span class="pill">GitHub: <a href="https://github.com/progress83" target="_blank" rel="noopener">progress83</a></span>
+            <span class="pill">LinkedIn: <a href="https://linkedin.com/in/progress-bougha-0245a0127" target="_blank" rel="noopener">progress-bougha</a></span>
+          </div>
+        </div>
+      </header>
+
+      <section aria-labelledby="summary">
+        <div class="section-title"><h2 id="summary">Profile</h2><div class="badge">Portfolio CV</div></div>
+        <p class="summary">AWS Certified Cloud Practitioner and engineer with hands-on experience designing, deploying and automating serverless & infrastructure solutions on AWS. Strong background in infrastructure as code, CI/CD, Linux, and networking. Recent portfolio work includes the Cloud Resume Challenge and multiple AWS lab exercises across IAM, VPC, EC2, Route 53, RDS, ACM, CloudFront and CodePipeline.</p>
+      </section>
+
+      <section aria-labelledby="skills">
+        <div class="section-title"><h2 id="skills">Core Skills</h2><div class="small">Technical stack & expertise</div></div>
+        <div class="skills-grid">
+          <div class="skill-item"><strong>Cloud</strong><div class="small">AWS: S3, CloudFront, Route53, EC2, ELB, Auto Scaling, Lambda, API Gateway, DynamoDB, RDS, ACM, IAM, CloudWatch</div></div>
+          <div class="skill-item"><strong>DevOps & IaC</strong><div class="small">GitHub Actions, CodePipeline, Jenkins, CloudFormation, Terraform, Ansible</div></div>
+          <div class="skill-item"><strong>Programming</strong><div class="small">Python, Bash, HTML/CSS, YAML, JSON</div></div>
+          <div class="skill-item"><strong>Containers & CI</strong><div class="small">Docker, Kubernetes, Amazon EKS, Amazon ECS</div></div>
+          <div class="skill-item"><strong>Networking & Security</strong><div class="small">VPC, Subnets, NACLs, Security Groups, IAM policies</div></div>
+          <div class="skill-item"><strong>Monitoring</strong><div class="small">Prometheus, Grafana, CloudWatch Logs, Metrics, Alarms, Dashboards</div></div>
+          
+        </div>
+      </section>
+
+      <section aria-labelledby="projects">
+        <div class="section-title"><h2 id="projects">Selected Projects</h2><div class="small">Hands-on & demonstrable</div></div>
+
+        <article class="project" aria-labelledby="crchallenge">
+          <h3 id="crchallenge">Cloud Resume Challenge — AWS</h3>
+          <div class="meta">Serverless resume website • S3 + CloudFront • API Gateway + Lambda (Python) • DynamoDB • GitHub Actions CI/CD</div>
+          <p class="techs">Highlights: built a static resume hosted on S3 with CloudFront, implemented a visitor counter (Lambda + API Gateway + DynamoDB), deployed via GitHub Actions using IaC (AWS SAM/CloudFormation), configured ACM certificates for HTTPS, and monitored with CloudWatch. Emphasised least-privilege IAM roles and reproducible automation.</p>
+          <p class="small">Source: <a href="https://github.com/progress83" target="_blank" rel="noopener">github.com/progress83</a></p>
+        </article>
+
+        <article class="project" aria-labelledby="awslabs">
+          <h3 id="awslabs">AWS Hands-On Labs Portfolio</h3>
+          <div class="meta">Practical exercises across the AWS console and CLI</div>
+          <ul class="small" style="margin-top:8px">
+            <li><strong>IAM:</strong> created users/groups, scoped S3-only policies, Admin group, programmatic & console access, password policies.</li>
+            <li><strong>VPC & Networking:</strong> built VPCs with public/private subnets, custom route tables, security groups, NACLs, VPC peering and tested cross-account connectivity.</li>
+            <li><strong>Compute & Autoscaling:</strong> launched EC2 via CLI, deployed Apache, created launch templates & autoscaling groups.</li>
+            <li><strong>DNS & Routing:</strong> Route 53 domain registration, geolocation routing, ALB + ACM TLS setup, CloudFront for S3 hosting.</li>
+            <li><strong>Databases:</strong> MySQL RDS instances, read replicas, and secure connectivity from EC2.</li>
+            <li><strong>Automation:</strong> CloudFormation, Ansible, CodePipeline two-stage CI/CD for S3 website deployments.</li>
+          </ul>
+        </article>
+
+        <article class="project" aria-labelledby="otherprojects">
+          <h3 id="otherprojects">Additional Projects & Tools</h3>
+          <div class="meta">Engineering & automation</div>
+          <p class="small">Underground hydrogen storage simulation (Eclipse), direct air capture optimisation, MATLAB & Python engineering scripts, machine learning correlation development for reservoir properties.</p>
+          <div class="meta">Deployed Serverless Website on AWS</div>
+          <p class="small">•  Built CI/CD pipeline using Jenkins and Terraform to deploy Lambda + API Gateway.</p>
+          <p class="small">•  Containerized a sample web app using Docker and deployed to EKS.</p>
+          <div class="meta">Calculator </div>
+          <p class="small">•  Built a Python-based financial calculator enabling users to compute long-term investment returns or monthly bond repayments.</p>
+          <p class="small">•  Developed a Python program that calculates total holiday costs—covering flights, hotel stays, and car rentals—based on user-selected destinations, nights, and rental days.</p>
+
+        </article>
+      </section>
+
+      <section aria-labelledby="experience">
+        <div class="section-title"><h2 id="experience">Professional Experience</h2><div class="small">Relevant operations background</div></div>
+
+        <div class="exp-item">
+          <h3>DevOps Cloud Engineer  — CloudSpace Consulting LLC</h3>
+          <div class="exp-role small">June 2021 – Current</div>
+          <ul class="small">
+            <li>Led the design and delivery of scalable, highly available AWS platforms, improving system reliability and reducing production incidents by 30%.</li>
+            <li>Built and managed AWS infrastructure using Terraform and CloudFormation, reducing manual configuration errors by 40% and improving deployment consistency.</li>
+            <li>Standardised application containerisation using Docker, improving deployment speed, scalability, and consistency across development and production environments.</li>
+            <li>Designed, provisioned, and maintained Amazon EKS clusters using CloudFormation, providing a secure and resilient Kubernetes platform for multiple development teams.</li>
+            <li>Implemented fully automated Terraform workflows, reducing environment provisioning time from days to under one hour and improving release readiness.</li>
+            <li>Designed and maintained CI/CD pipelines using GitAction, Jenkins for EKS deployments, increasing deployment frequency while reducing rollback and failure rates by 25%.</li>
+            <li>Established monitoring, logging, and alerting using AWS CloudWatch and SNS, improving visibility and reducing mean time to recovery (MTTR).</li>
+            <li>Developed and maintained Ansible playbooks to automate configuration management and application deployments across multiple AWS accounts and environments.</li>
+            <li>Led AWS infrastructure reviews using Trusted Advisor, driving security improvements and delivering 15–20% cost optimisation through resource right-sizing and best practices.</li>
+          </ul>
+        </div>
+        <div class="exp-item">
+          <h3>Volunteer IT Support  — AbilityNet UK</h3>
+          <div class="exp-role small">August 2025 – Current</div>
+          <ul class="small">
+            <li>Volunteer as an IT Support Specialist, helping disabled and elderly users set up and use computers, mobile devices, and accessibility software.</li>
+            <li>Diagnose and resolve hardware, software, and connectivity issues, improving users’ ability to work, communicate, and stay independent.</li>
+            <li>Explain technical issues in clear, simple language, demonstrating strong communication and problem-solving skills.</li>
+            <li>Support users remotely and in person, adapting solutions to individual accessibility needs and constraints.</li>
+            <li>Delivered reliable, user-focused technical support, contributing to AbilityNet’s mission of digital inclusion across the UK.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section aria-labelledby="education">
+        <div class="section-title"><h2 id="education">Education</h2><div class="small">Technical foundation</div></div>
+        <div class="edu-item">
+          <strong>MSc Petroleum Engineering (Distinction)</strong><div class="small">Teesside University — 2024</div>
+        </div>
+        <div class="edu-item">
+          <strong>B.Eng (Hons) Petroleum Engineering (2:1)</strong><div class="small">University of Benin — 2018</div>
+        </div>
+      </section>
+
+      <section aria-labelledby="certs">
+        <div class="section-title"><h2 id="certs">Certifications & Memberships</h2><div class="small"></div></div>
+        <div class="certs">
+          <div class="cert">AWS Certified Cloud Practitioner</div>
+          <div class="cert">AWS Solutions Architect Associate - In Progress</div>
+          <div class="cert">Member — Energy Institute</div>
+          <div class="cert">Member — Society of Petroleum Engineers</div>
+        </div>
+      </section>
+
+    </div>
+
+    <aside>
+      <div class="card">
+        <h3 style="margin:0 0 8px 0">Contact & Links</h3>
+        <ul class="link-list small" aria-label="links">
+          <li>GitHub: <a href="https://github.com/progress83" target="_blank" rel="noopener">github.com/progress83</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/progress-bougha-0245a0127" target="_blank" rel="noopener">linkedin.com/in/progress-bougha</a></li>
+          <li>Email: <a href="mailto:progressbougha83@gmail.com">progressbougha83@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 style="margin:0 0 8px 0">Quick Facts</h3>
+        <div class="small">
+          <p style="margin:6px 0"><strong>Role target:</strong> Cloud & DevOps / Site Reliability</p>
+          <p style="margin:6px 0"><strong>Availability:</strong> Immediate</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <p style="margin-top:10px"><a class="cta" href="https://github.com/progress83" target="_blank" rel="noopener">View GitHub Portfolio</a></p>
+      </div>
+    </aside>
+    <!-- Visitor Counter -->
+    <div id="visitor-section" style="text-align:center; margin-top:20px; font-size:14px; color:#98a0b3;">
+      👁️ Visitors: <span id="viewCount">...</span>
+    </div>
+    <footer>
+      Built for Cloud Resume Challenge & Cloud/DevOps roles
+    </footer>
+  </div>
+  <script>
+    const functionUrl = "https://5z4nx4h7vnlz2p4tip32maxe3y0mbmld.lambda-url.us-east-1.on.aws/";
+  
+    async function fetchViewCount() {
+      try {
+        const response = await fetch(functionUrl);
+        const data = await response.json();
+  
+        // Display the view count
+        document.getElementById("viewCount").innerText = data.views;
+      } catch (error) {
+        console.log(error)
+        console.error("Error fetching view count:", error);
+        document.getElementById("viewCount").innerText = "error";
+      }
+    }
+  
+    // Run when the page loads
+    window.onload = fetchViewCount;
+  </script>
+</body>
+</html>
